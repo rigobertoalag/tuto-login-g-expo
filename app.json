@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "tuto-login-g-expo",
-    "slug": "tuto-login-g-expo",
+    "name": "tutoLoginGExpo",
+    "slug": "tutoLoginGExpo",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,9 +18,11 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.rigoaa.tutoLoginGExpo"
     },
     "android": {
+      "package": "com.rigoaa.tutoLoginGExpo",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
@@ -28,6 +30,11 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "53e4de87-6dcc-41db-bb7c-29369346ba26"
+      }
     }
   }
 }
